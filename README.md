@@ -1,4 +1,4 @@
-## pandora-hsm
+# Pandora HSM
 This repository provides an interface to create cryptographic keys, sign data, and generate CSR file by using TÜBİTAK Network HSM (Hardware Security Module) device.
 
 ## Instructions for VPN Mode in Ubuntu 22.04.2 LTS
@@ -33,3 +33,12 @@ Fill in the IP and Serial Number fields as with your spesific informations:
  
  Run dirakClient64 test application to check if you can connect to the HSM device and sign. \
  `sudo ./dirakClient64`
+ 
+ ## Run the Application
+ In the project's main directory first run: \
+ `npm i`
+ 
+ If everything is fine run : \
+ `npm run generate` \
+ 
+ This will generate a keypair, sign the data with the private key, and put the CSR down to `pandora.csr` file.

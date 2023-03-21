@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint \"src/**/*.js\" --fix",
-    "generate": "sudo node src/script.js"
+    "generate": "sudo node scripts/generate.js"
   },
   "author": "",
   "license": "ISC",

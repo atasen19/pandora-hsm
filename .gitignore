@@ -49,3 +49,4 @@ coverage/
 *.pub
 
 Footer
+node_modules
